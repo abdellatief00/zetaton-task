@@ -1,6 +1,5 @@
 import React from "react";
 import MiniDrawer from "../commonComp/common/sidebar";
-import ShowImages from "../commonComp/ShowImages";
 import Favourites from "../commonComp/favourites";
 
 export default function Fav() {
