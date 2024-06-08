@@ -3,7 +3,6 @@ import Swal from "sweetalert2";
 import { db } from "../config/firebase";
 import {
   collection,
-  addDoc,
   getDocs,
   query,
   where,
@@ -11,7 +10,6 @@ import {
   deleteDoc,
 } from "firebase/firestore";
 import { auth } from "../config/firebase";
-import { set } from "firebase/database";
 import Box from "@mui/material/Box";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
