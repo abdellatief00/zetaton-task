@@ -9,6 +9,7 @@ export default function Fav() {
       <MiniDrawer name="Favourites Images">
         <Favourites />
       </MiniDrawer>
+      {/* some docs */}
     </>
   );
 }
