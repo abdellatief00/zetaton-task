@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BasicCard from "./commonComp/cart";
 import SearchImages from "./Pages/SearchImages";
-import { BrowserRouter, Route, Switch, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Fav from "./Pages/fav";
 
 function App() {
